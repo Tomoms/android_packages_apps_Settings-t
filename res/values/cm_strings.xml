@@ -220,4 +220,6 @@
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="longpress_to_clipboard">Long-press to copy</string>
+
+    <string name="storage_scopes">Storage Scopes</string>
   </resources>
