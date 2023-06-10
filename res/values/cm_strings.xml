@@ -199,17 +199,6 @@
     <string name="allow_access_to_obb_directory_title">Allow access to Android/obb folder</string>
     <string name="allow_access_to_obb_directory_summary">Required for installation of some large apps (mostly games) that use OBB expansion files</string>
 
-    <!-- Cloudflare DNS Option -->
-    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
-    <!-- AdGuard DNS Option -->
-    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
-    <!-- Open DNS Option -->
-    <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
-    <!-- Cleanbrowsing DNS Option -->
-    <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
-    <!-- Quad9 DNS Option -->
-    <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
-
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe three fingers to take a screenshot</string>
@@ -223,4 +212,4 @@
 
     <string name="storage_scopes">Storage Scopes</string>
     <string name="contact_scopes">Contact Scopes</string>
-  </resources>
+</resources>
