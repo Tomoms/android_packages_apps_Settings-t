@@ -140,6 +140,11 @@ public class ApnEditorTest {
                 .getSystemService(Context.CARRIER_CONFIG_SERVICE);
         doReturn(mBundle).when(mCarrierConfigManager).getConfigForSubId(anyInt());
 
+        doReturn(mUserManager).when(mContext).getSystemService(UserManager.class);
+        doReturn(true).when(mUserManager).isAdminUser();
+        doReturn(false).when(mUserManager)
+                .hasUserRestriction(UserManager.DISALLOW_CONFIG_MOBILE_NETWORKS);
+
         setMockPreference(mContext);
         mApnEditorUT.mApnData = new FakeApnData(APN_DATA);
         mApnEditorUT.sNotSet = "Not Set";
