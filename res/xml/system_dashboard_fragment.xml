@@ -112,4 +112,14 @@
         android:order="-30"
         android:fragment="com.android.settings.system.ResetDashboardFragment"
         settings:controller="com.android.settings.system.ResetPreferenceController"/>
+
+    <!-- Play integrity fix -->
+    <Preference
+        android:key="pif"
+        android:title="@string/pif_title"
+        android:summary="@string/pif_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.goolag.pif"
+            android:targetClass="com.goolag.pif.PifActivity" />
+    </Preference>
 </PreferenceScreen>
