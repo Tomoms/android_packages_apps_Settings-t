@@ -7,4 +7,6 @@
     <!-- Pif -->
     <string name="pif_title">Play Integrity fix</string>
     <string name="pif_summary">View current values used to spoof GMS</string>
+
+    <string name="view_logs">View logs</string>
 </resources>
