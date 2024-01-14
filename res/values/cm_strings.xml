@@ -193,4 +193,8 @@
 
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="bootloader_version">Bootloader version</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
 </resources>
