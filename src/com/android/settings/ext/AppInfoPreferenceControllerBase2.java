@@ -1,7 +1,6 @@
 package com.android.settings.ext;
 
 import android.content.Context;
-import android.content.pm.GosPackageState;
 import android.text.TextUtils;
 
 import androidx.preference.Preference;
@@ -25,11 +24,6 @@ public abstract class AppInfoPreferenceControllerBase2 extends AppInfoPreference
     }
 
     public abstract void onPreferenceClick(String packageName);
-
-    protected boolean hasGosPackageStateFlags(int flags) {
-        var ps = GosPackageState.get(getPackageName());
-        return ps != null && ps.hasFlags(flags);
-    }
 
     protected String getPackageName() {
         return mParent.getPackageInfo().packageName;
