@@ -122,6 +122,7 @@
     <Preference
         android:key="pif"
         android:title="@string/pif_title"
+        android:icon="@drawable/ic_search_check"
         android:summary="@string/pif_summary">
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="com.goolag.pif"
